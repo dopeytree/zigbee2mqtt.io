@@ -36,6 +36,8 @@ advanced:
 
 ::: tip
 Set `network_key: GENERATE` to let Zigbee2MQTT generate a new random key on the first start. The `configuration.yml` gets updated with the new key. Changing the network_key requires repairing of all devices.
+
+When you change network key & or zigbee channel you will need to reset your co-ordinator. This is done by powering it down for 10seconds. Such as removing it from the usb port. Then pluggin it back in after the time has elapsed and then restart zigbee2mqqt.
 :::
 
 ::: tip
